@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{919E0823-0494-6538-4363-74DB8956E768}</ProjectGuid>
+    <ProjectGuid>{2B3D8B54-A9ED-165F-4CED-6F487EB89360}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PrintOut.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ManMoviments.cs" />
+    <Compile Include="Assets\Scripts\BodyMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Julien Tonsuso\Modular Fantasy Bridges\README.txt" />
