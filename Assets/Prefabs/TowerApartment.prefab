@@ -105,9 +105,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7575330086568968513}
+  - component: {fileID: 7602509454860452231}
+  - component: {fileID: 6881856802166252890}
   m_Layer: 0
   m_Name: Balcony (3)
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,6 +134,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7602509454860452231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202505747698721330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &6881856802166252890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202505747698721330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &383048636252380554
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,9 +453,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2873504730828351200}
+  - component: {fileID: 8402241139930289570}
+  - component: {fileID: 5789404349962704838}
   m_Layer: 0
   m_Name: Balcony (2)
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,6 +482,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8402241139930289570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419803376400994583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &5789404349962704838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419803376400994583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1489526044803809548
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,9 +801,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4887890687771489055}
+  - component: {fileID: 6988768430965559037}
+  - component: {fileID: 2844000588765698486}
   m_Layer: 0
   m_Name: Balcony (5)
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,6 +830,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6988768430965559037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054381541575605504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &2844000588765698486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054381541575605504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2201356099303474905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,9 +1529,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4429852289333904250}
+  - component: {fileID: 135124228455394878}
+  - component: {fileID: 6356145296086491743}
   m_Layer: 0
   m_Name: Balcony (4)
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1475,6 +1558,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &135124228455394878
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3373302134137826282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &6356145296086491743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3373302134137826282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3480298859000531334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,9 +2067,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8744220611509638573}
+  - component: {fileID: 5144970787825577957}
+  - component: {fileID: 8606542002202529203}
   m_Layer: 0
   m_Name: Balcony (1)
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1986,6 +2096,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5144970787825577957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3799268114831540139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &8606542002202529203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3799268114831540139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3802911596544661058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,9 +2845,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4843993643839842870}
+  - component: {fileID: 3105923256815968272}
+  - component: {fileID: 665158355732171033}
   m_Layer: 0
   m_Name: Balcony
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2737,6 +2874,31 @@ Transform:
   m_Father: {fileID: 7175653804813694102}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3105923256815968272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719650962100812892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.06, y: 0.3, z: 0.6}
+  m_Center: {x: -0.65, y: 2.55, z: -1.85}
+--- !u!114 &665158355732171033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719650962100812892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29b9a8632fc0c4ca907b6d5573513b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4854648084987571793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,7 +3579,7 @@ GameObject:
   - component: {fileID: 3475359766417932468}
   m_Layer: 0
   m_Name: BalconyBot
-  m_TagString: Untagged
+  m_TagString: TowerBalcony
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
