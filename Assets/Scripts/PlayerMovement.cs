@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody playerRb;
 
+    AudioSource wingsAudio;
+
     [SerializeField] float boostLevel = 1000f;
     [SerializeField] float rotationSpeed = 100f;
 
@@ -14,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        wingsAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,6 +34,14 @@ public class PlayerMovement : MonoBehaviour
             playerRb.freezeRotation = true;
             //Debug.Log("The Space key was pressed");
             playerRb.AddRelativeForce(Vector3.up * boostLevel * Time.deltaTime);
+            if(!wingsAudio.isPlaying)
+            {
+                wingsAudio.Play();
+            }            
+        }
+        else
+        {
+            wingsAudio.Stop();
         }
     }
 
