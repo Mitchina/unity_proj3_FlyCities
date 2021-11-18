@@ -7,7 +7,7 @@ public class BalconyTrigger : MonoBehaviour
     bool TimerStarted = false;
     float TimeCounter = 0f;
     float TimeToCount = 1f;
-    bool GuiToEnterIsOn = false;
+    //bool GuiToEnterIsOn = false;
     bool GuiShowed = false;
 
 
@@ -30,7 +30,7 @@ public class BalconyTrigger : MonoBehaviour
         }
         if (TimeCounter >= TimeToCount & !GuiShowed)
         {
-            GuiToEnterIsOn = true;
+            //GuiToEnterIsOn = true;
             GuiShowed = true;
             Debug.Log("Press F to enter in this apartment");
             Debug.Log($"GuiShowed status = {GuiShowed}");
@@ -72,7 +72,7 @@ public class BalconyTrigger : MonoBehaviour
             //FunctionTimer.StopTimer("Timer 1 second");
             TimerStarted = false;
             TimeCounter = 0;
-            GuiToEnterIsOn = false;
+            //GuiToEnterIsOn = false;
             Debug.Log("You can no more enter in this one");
             Debug.Log($"GuiShowed status = {GuiShowed}");
         }

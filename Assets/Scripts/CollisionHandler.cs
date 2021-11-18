@@ -6,7 +6,7 @@ public class CollisionHandler : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.tag);
+        Debug.Log($"Player is saying: {collision.gameObject.tag}");
 
         ////int i = 0;
         //for (int i = 0; i < 10; i++)

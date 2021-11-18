@@ -9,6 +9,7 @@ TagManager:
   - Bridge
   - Plane
   - Building
+  - Tree
   layers:
   - Default
   - TransparentFX
