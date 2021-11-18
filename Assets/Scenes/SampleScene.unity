@@ -1756,7 +1756,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1311933340815830658, guid: d7dcbd3624d64464c80281ffe723b2c9, type: 3}
       propertyPath: boostLevel
-      value: 620
+      value: 580
       objectReference: {fileID: 0}
     - target: {fileID: 1311933340815830659, guid: d7dcbd3624d64464c80281ffe723b2c9, type: 3}
       propertyPath: m_RootOrder
